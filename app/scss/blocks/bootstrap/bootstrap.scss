@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+
+header {
+    padding-top: 63px;
+    padding-bottom: 243px;
+    background: rgba(255, 175, 75, 1);//https://www.cssmatic.com/gradient-generator
+    background: -moz-linear-gradient(left, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 175, 75, 1)), color-stop(100%, rgba(253, 85, 136, 1)));
+    background: -webkit-linear-gradient(left, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
+    background: -o-linear-gradient(left, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
+    background: linear-gradient(to right, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffaf4b', endColorstr='#fd5588', GradientType=1);
+
+}
+
+section {
+    padding-top: 157px;
+    padding-bottom: 129px;
+}
+
+.btn {
+    background: #5cd2ea;
+    border-radius: 100px;
+    display: block;
+    width: 229px;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 3px 13px rgba(0, 0, 0, 0.16);
+}
+
+.header{
+    
+}
+
+.logo {
+    display: block;
+    width: 92px;
+}
