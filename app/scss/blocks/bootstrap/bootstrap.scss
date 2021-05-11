@@ -18,19 +18,15 @@ h6 {
     text-transform: uppercase;
 }
 
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
 
-header {
-    padding-top: 63px;
-    padding-bottom: 243px;
-    background: rgba(255, 175, 75, 1);//https://www.cssmatic.com/gradient-generator
-    background: -moz-linear-gradient(left, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 175, 75, 1)), color-stop(100%, rgba(253, 85, 136, 1)));
-    background: -webkit-linear-gradient(left, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
-    background: -o-linear-gradient(left, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
-    background: linear-gradient(to right, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffaf4b', endColorstr='#fd5588', GradientType=1);
-
+a {
+    text-decoration: none;
 }
 
 section {
@@ -38,7 +34,21 @@ section {
     padding-bottom: 129px;
 }
 
+.header {
+    padding-top: 63px;
+    padding-bottom: 173px;
+    background: rgba(255, 175, 75, 1); //https://www.cssmatic.com/gradient-generator
+    background: -moz-linear-gradient(left, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 175, 75, 1)), color-stop(100%, rgba(253, 85, 136, 1)));
+    background: -webkit-linear-gradient(left, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
+    background: -o-linear-gradient(left, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
+    background: linear-gradient(to right, rgba(255, 175, 75, 1) 0%, rgba(253, 85, 136, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffaf4b', endColorstr='#fd5588', GradientType=1);
+}
+
 .btn {
+    font-size: 16px;
     background: #5cd2ea;
     border-radius: 100px;
     display: block;
@@ -46,13 +56,114 @@ section {
     padding: 15px 0;
     text-align: center;
     box-shadow: 0 3px 13px rgba(0, 0, 0, 0.16);
+    font-weight: 900;
+    color: #fff;
+    transition: all 0.5s ease;
 }
 
-.header{
-    
+.btn:hover {
+    background: #44cae6;
+    color: #fff;
+    box-shadow: 0 3px 13px rgba(0, 0, 0, 0.16);
+}
+
+.header {
+    color: #fff;
 }
 
 .logo {
     display: block;
     width: 92px;
+    margin-bottom: 181px;
 }
+
+.offer__dop-title {
+    font-size: 26px;
+    margin-bottom: 24px;
+}
+
+.offer__title {
+    font-size: 36px;
+    margin-bottom: 41px;
+}
+
+.offer__list {
+    margin-bottom: 40px;
+}
+
+.offer__item {
+    margin-bottom: 11px;
+}
+
+.offer__item:before {
+    content: '';
+    display: block;
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    margin-right: 17px;
+    float: left;
+    margin-top: 8px;
+}
+
+.fist {
+    border-radius: 50%;
+    /*  position: relative; */
+}
+
+.card {
+    border-radius: 21px;
+    box-shadow: 0 14px 20px rgba(0, 0, 0, 0.11);
+    margin-top: 77px;
+    padding: 20px;
+    border: none;
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 25px;
+}
+
+.card_text {
+    font-size: 13px;
+    color: #787878;  
+}
+
+.card-letter {
+    font-size: 91px;
+    color: #dbdbdb;
+    text-decoration: underline;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .fist::before {
+    content: '';
+    display: inline-block;
+    width: 540px;
+    height: 540px;
+    background-color: #69b6d5;
+    border-radius: 50%;
+    background-image: url("./img/fist.png"), url("./img/fist.png");
+    background-repeat: repeat-y, no-repeat;
+    background-position: center, center;
+    background-size: auto, cover;
+}
+ */
+/* position: absolute;
+content: "";
+top: -405px;
+bottom: auto;
+left: 0;
+right: 0;
+width: 100%;
+height: 1335px;
+z-index: -1;
+background-image: url("../img/bg/bg-lines.png"), url("../img/bg/bg-surfer.jpg");
+background-repeat: repeat-y, no-repeat;
+background-position: center, center;
+background-size: auto, cover; */
